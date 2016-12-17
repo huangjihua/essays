@@ -5,7 +5,7 @@
 ES5的大部分特性都在主流浏览器（IE9+）中支持了。而且大部分特性，都可以通过JavaScript垫片(pollyfill)在运行时环境实现。
 
 一些我梳理了ES5新增的新特性的导图：
-<iframe id=\'embed_dom\' name=\'embed_dom\' frameborder=\'0\' style=\'display:block\;width:100%\; height:600px\;\' src=\"https://www.processon.com/embed/mind/5852a97ae4b05a02847b559e\"></iframe>
+<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:100%; height:600px;" src="https://www.processon.com/embed/mind/5852a97ae4b05a02847b559e"></iframe><br/>
 
 接下来我们一个一个的来看吧...
 ## Object 新特性
