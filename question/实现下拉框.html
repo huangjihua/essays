@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        p,ul {
+            margin: 0;
+        }
+        ul {
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        .btn {
+            border: 1px solid #000;
+            width: 100px;
+            text-align: center;
+            margin-bottom: 0.5px;
+            cursor: pointer;
+            padding: 2px 0;
+        }
+        .down {
+            width: 100px;
+            border: 1px solid #000;
+            text-align: center;
+            display: block;
+        }
+
+        .l_sm {
+            border: 1px solid grey;
+            list-style: none;
+            padding: 2px 0;
+            cursor: pointer;
+        }
+        .l_sm:hover {
+
+        }
+    </style>
+</head>
+<body>
+<p class="btn" id="btn">点击</p>
+<ul class="down" id="show" >
+    <li class="l_sm"><a href="#">第一项</a></li>
+    <li class="l_sm"><a href="#">第二项</a></li>
+    <li class="l_sm"><a href="#">第三项</a></li>
+    <li class="l_sm"><a href="#">第四项</a></li>
+</ul>
+<script type="text/javascript">
+    var btn = document.getElementById("btn");
+    var show = document.getElementById("show");
+
+    btn.addEventListener("click",function(){
+        var style = window.getComputedStyle(show).display;
+        if(style=="block"){
+            show.style.display = "none";
+        }else{
+            show.style.display = "block";
+        }
+    });
+</script>
+</body>
+</html>

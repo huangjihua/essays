@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table-layout</title>
+    <style>
+        .parent-fix{
+            margin-left:10px;
+        }
+        .parent{
+            display: table;
+            width:100%;
+            table-layout: fixed;
+        }
+        .column {
+            display: table-cell;
+            margin-left: 20px;
+            background-color: #0086b3;
+            height: 20px;
+        }
+        /*可视窗口变化而变化*/
+        @media screen and (max-width:480px) {
+            .parent-fix{
+                margin-left:0;
+            }
+            .parent{
+                display: block;
+                width: 100%;
+            }
+            .column {
+                display: block;
+                margin-left: 0;
+                height: 50px;
+                background-color: #8b467f;
+                margin-bottom: 5px;
+            }
+        }
+
+        @media screen and (min-width: 480px) and (max-width: 600px) {
+            .parent-fix{
+                margin-left:0;
+            }
+            .parent{
+                display: block;
+                width: 100%;
+            }
+            .column {
+                display: block;
+                margin-left: 0;
+                height: 30px;
+                background-color: #aaffaa;
+                margin-bottom: 5px;
+            }
+        }
+        /*
+        下面的样式会在 max-device-width 是 480px 的设备上触发。
+        （提示：max-device-width 是设备的实际分辨率，而 max-width 指的是可视区域分辨率。）
+        */
+        @media screen and (max-device-width: 480px) {
+            body {
+                background-color:#4183c4;
+            }
+        }　
+    </style>
+</head>
+<body>
+<div class="parent-fix">
+    <div class="parent">
+        <div class="column">one</div>
+        <div class="column">two</div>
+        <div class="column">three</div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节点之间的关系</title>
+    <style>
+        html,body{margin:0;  padding:0;}
+        .container{ }
+        .c_l { width: 200px;  background-color: #8b467f;float: left; height: 130px; }
+        .c_r { width: 100%; background-color: #0086b3; height: 50px;}
+        .c1 { background-color: #aaffaa;}
+        .footer { height: 50px; line-height: 50px; background-color: #4183c4; }
+        .clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="c_l clearfix"></div>
+    <div class="c_r"></div>
+    <div class="c_r c1"></div>
+</div>
+<div class="footer">
+    <input type="button" value="createElement" class="bt_ce">
+    <input type="button" value="createDocumentFragment" class="bt_cdf">
+
+    <input type="button" value="Remove createElement" class="bt_ce_r">
+    <input type="button" value="Remove createDocumentFragment" class="bt_cdf_r">
+</div>
+<script>
+    //（1）创建新节点
+//    createElement创建的元素可以使用innerHTML，createDocumentFragment创建的元素使用innerHTML
+//    并不能达到预期修改文档内容的效果，只是作为一个属性而已。两者的节点类型完全不同，
+//    并且createDocumentFragment创建的元素在文档中没有对应的标记，因此在页面上只能用js中访问到。
+    var c1 = document.querySelector(".c1");
+    var fragment_1 = document.createDocumentFragment();
+    fragment_1.innerHTML = '<p>document.createDocumentFragment </p>';  //
+    c1.appendChild(fragment_1); // 并没有追加到元素下
+
+    var fragment_2 = document.createElement('p');
+    fragment_2.innerHTML = ' document.createElement';
+    document.querySelector('.c_r').appendChild(fragment_2);
+//第二：另一个最主要的区别就是createElement创建的元素可以重复操作，添加之后就算从文档里面移除依旧归文档所有，
+// 可以继续操作，但是createDocumentFragment创建的元素是一次性的，添加之后再就不能操作了
+// （说明：这里的添加并不是添加了新创建的片段，
+// 因为上面说过，新创建的片段在文档内是没有对应的标签的，这里添加的是片段的所有子节点）。
+    document.querySelector('.bt_ce').addEventListener('click',function (event) {
+        event = event  || window.event;
+        var  p = document.createElement('p');
+        p.innerHTML  = 'document.createElement';
+        document.querySelector(".c_r").appendChild(p);
+        document.querySelector('.bt_ce_r').addEventListener('click',function (event) {
+            document.querySelector(".c_r").removeChild(p);
+        },false);
+    },false);
+
+
+    document.querySelector('.bt_cdf').addEventListener('click',function (event) {
+        event = event  || window.event;
+        var  p = document.createElement('p');
+            // p.innerHTML  = 'document.createDocumentFragment';
+            //创建文本节点
+            var text = document.createTextNode('document.createDocumentFragment');
+            p.appendChild(text);
+        var cdf =  document.createDocumentFragment();
+        cdf.appendChild(p);
+        c1.appendChild(cdf);
+        document.querySelector('.bt_cdf_r').addEventListener('click',function () {
+            c1.removeChild(cdf); //createDocumentFragment创建的元素是一次性的，添加之后再就不能操作了
+        },false);
+    },false);
+
+
+
+</script>
+</body>
+</html>

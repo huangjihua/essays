@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>margin负值下的等高布局</title>
+    <style>
+        .box{ overflow: hidden; resize:vertical; width: 500px; margin:0 auto; background-color: #cccccc;}
+        /*处理等高布局:*/
+        .child-green, .child-oragne {  margin-bottom:-50px;  padding-bottom:50px; }
+        .child-oragne {   float: left; background-color: orange;  }
+        .child-green {  float: left; background-color: green;}
+        .cl{ width: 100px; text-align:center; height: 50px;line-height: 50px;}
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="child-oragne">
+        <div class="cl">橙色</div>
+        <div class="cl">橙色</div>
+    </div>
+
+    <div class="child-green">
+        <div class="cl">绿色</div>
+        <div class="cl">绿色</div>
+        <div class="cl">绿色</div>
+    </div>
+</div>
+</body>
+</html>
