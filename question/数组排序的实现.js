@@ -14,7 +14,6 @@ Array.prototype.sort1 = function () {
         newArr.push(min);
     // console.log(this);
    // console.log(min);
-
         arr.slice(r(arr,min),1);
     }
     function r(arr,m) {
@@ -27,6 +26,9 @@ Array.prototype.sort1 = function () {
     }
 };
 b.sort1() ;
+
+//方法二
+
 function sort(arr) {
     var i,j;
     for(i=0;i<arr.length;i++){
@@ -48,7 +50,6 @@ console.log(sort(b));
 console.log([88,22,99,4,2].sort(function (a,b) {
     return b-a;
 }));
-
 
 var arr1 =[1,3,4,6];
 console.log(arr1.reduce((a,b) => a+b));

@@ -2,41 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b8467f-f64e-492e-be7b-d792a925499c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout-css/imgs/mz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapters/CSS/example/绝对定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapters/Html5/Html5实践体会以及资源本地存储原理.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chapters/Tools/webpack构建工具的使用.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/O_curring_Calss.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/O_defineProperties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/O_seal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js_methodOverride.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js引擎如何查找属性.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/md_lazyMan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/特殊比较值.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout-css/margin相关/magin负值下的两栏自适应布局.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout-css/margin相关/magin负值下的等高布局.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout-css/margin相关/margin无效情形解析.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/DOM操作.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/baseQ-demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/base_question.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/constructor 和prototype.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/curring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/fe_question_answers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/table_layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/一个有意思的js题.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/友盟面试题.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/反转字符串语句.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/实现下拉框.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/数组排序的实现.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/柯里化.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/柯里化事例.cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/setTimeout与process.nextTick区别.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/数组去重.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/解决应用类型__深拷贝问题.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/question/DOM操作.html" afterPath="$PROJECT_DIR$/question/html/DOM操作.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/question/baseQ-demo.html" afterPath="$PROJECT_DIR$/question/html/baseQ-demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/question/base_question.md" afterPath="$PROJECT_DIR$/question/md/base_question.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/question/curring.js" afterPath="$PROJECT_DIR$/question/柯里化实现方案.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/question/fe_question_answers.md" afterPath="$PROJECT_DIR$/question/md/fe_question_answers.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/question/table_layout.html" afterPath="$PROJECT_DIR$/question/html/table_layout.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/question/实现下拉框.html" afterPath="$PROJECT_DIR$/question/html/实现下拉框.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/question/柯里化.js" afterPath="$PROJECT_DIR$/question/柯里化实现.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/demo.js" afterPath="$PROJECT_DIR$/question/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html" afterPath="$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/数组排序的实现.js" afterPath="$PROJECT_DIR$/question/数组排序的实现.js" />
     </list>
     <ignored path="essays.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,65 +44,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="反转字符串语句.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question/反转字符串语句.js">
+      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question/demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="手写事件模型及事件代理_委托.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="31" column="75" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="O_curring_Calss.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/O_curring_Calss.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="8" column="84" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="84" />
+            <state relative-caret-position="302">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
-                <element signature="e#0#50#0" expanded="false" />
+                <element signature="e#0#39#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="O_seal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/O_seal.js">
+      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/question/数组去重.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="柯里化.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question/柯里化.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constructor 和prototype.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question/constructor 和prototype.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="197">
+              <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
               <folding>
-                <element signature="n#!!doc;n#a#0" expanded="false" />
+                <element signature="e#0#40#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -134,8 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Markdown" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -160,7 +100,6 @@
         <option value="$PROJECT_DIR$/question/table_layout.html" />
         <option value="$PROJECT_DIR$/question/promise.js" />
         <option value="$PROJECT_DIR$/question/反转字符串语句.js" />
-        <option value="$PROJECT_DIR$/question/数组排序的实现.js" />
         <option value="$PROJECT_DIR$/demo/LazyMan.js" />
         <option value="$PROJECT_DIR$/e-css/magin负值下的两栏自适应布局.html" />
         <option value="$PROJECT_DIR$/demo/js引擎如何查找属性.js" />
@@ -169,15 +108,20 @@
         <option value="$PROJECT_DIR$/layout-css/margin相关/margin无效情形解析.html" />
         <option value="$PROJECT_DIR$/question/一个有意思的js题.js" />
         <option value="$PROJECT_DIR$/question/baseQ-demo.html" />
-        <option value="$PROJECT_DIR$/question/curring.js" />
         <option value="$PROJECT_DIR$/demo/O_seal.js" />
         <option value="$PROJECT_DIR$/demo/特殊比较值.js" />
         <option value="$PROJECT_DIR$/demo/O_curring_Calss.js" />
         <option value="$PROJECT_DIR$/question/柯里化.js" />
         <option value="$PROJECT_DIR$/question/constructor 和prototype.js" />
         <option value="$PROJECT_DIR$/question/tt.html" />
-        <option value="$PROJECT_DIR$/question/demo.js" />
         <option value="$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html" />
+        <option value="$PROJECT_DIR$/question/最简单的解决对象深拷贝问题.js" />
+        <option value="$PROJECT_DIR$/question/最简单的解决应用类型__深拷贝问题.js" />
+        <option value="$PROJECT_DIR$/question/数组排序的实现.js" />
+        <option value="$PROJECT_DIR$/question/curring.js" />
+        <option value="$PROJECT_DIR$/question/demo.js" />
+        <option value="$PROJECT_DIR$/question/setTimeout与process.nextTick区别.js" />
+        <option value="$PROJECT_DIR$/question/数组去重.js" />
       </list>
     </option>
   </component>
@@ -190,7 +134,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="729" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -220,38 +164,7 @@
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="essays" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="question" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -268,24 +181,26 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/question/html" />
+      <recent name="$PROJECT_DIR$/question/md" />
       <recent name="$PROJECT_DIR$/layout-css/margin相关" />
       <recent name="$PROJECT_DIR$/e-css/imgs" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.手写事件模型及事件代理_委托.html">
-    <configuration default="false" name="柯里化.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="柯里化.js" working-dir="$PROJECT_DIR$/question">
+  <component name="RunManager" selected="Node.js.数组去重.js">
+    <configuration default="false" name="最简单的解决应用类型__深拷贝问题.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/question/解决应用类型__深拷贝问题.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
-    <configuration default="false" name="constructor 和prototype.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="constructor 和prototype.js" working-dir="$PROJECT_DIR$/question">
+    <configuration default="false" name="数组排序的实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数组排序的实现.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
-    <configuration default="false" name="demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="demo.js" working-dir="$PROJECT_DIR$/question">
+    <configuration default="false" name="curring.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/question/柯里化实现方案.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
-    <configuration default="false" name="反转字符串语句.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="反转字符串语句.js" working-dir="$PROJECT_DIR$/question">
+    <configuration default="false" name="setTimeout与process.nextTick区别.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="setTimeout与process.nextTick区别.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
-    <configuration default="false" name="手写事件模型及事件代理_委托.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/essays/question/手写事件模型及事件代理_委托.html">
+    <configuration default="false" name="数组去重.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数组去重.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -346,19 +261,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.O_defineProperties.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.柯里化.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.constructor 和prototype.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.demo.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.反转字符串语句.js" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.手写事件模型及事件代理_委托.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.最简单的解决应用类型__深拷贝问题.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.curring.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.setTimeout与process.nextTick区别.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.数组去重.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.手写事件模型及事件代理_委托.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.反转字符串语句.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.demo.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.constructor 和prototype.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.柯里化.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.数组去重.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.setTimeout与process.nextTick区别.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.curring.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.最简单的解决应用类型__深拷贝问题.js" />
       </list>
     </recent_temporary>
   </component>
@@ -387,33 +302,33 @@
       <workItem from="1486614580873" duration="4474000" />
       <workItem from="1486642397136" duration="3308000" />
       <workItem from="1487087248993" duration="2109000" />
-      <workItem from="1487131106819" duration="1435000" />
+      <workItem from="1487131106819" duration="29820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87358000" />
+    <option name="totallyTimeSpent" value="115743000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="729" extended-state="6" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1683876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26101142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27286586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3246951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -457,12 +372,12 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/question/柯里化.js</url>
+          <url>file://$PROJECT_DIR$/question/柯里化实现.js</url>
           <line>12</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -478,38 +393,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/question/一个有意思的js题.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/JavaScript/Core/ECMAScript/Array核心基础「ES5／ES6」.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/一个有意思的js题.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapters/JavaScript/Core/ECMAScript/Array核心基础「ES5／ES6」.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -545,7 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/baseQ-demo.html">
+    <entry file="file://$PROJECT_DIR$/question/html/baseQ-demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -605,7 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/baseQ-demo.html">
+    <entry file="file://$PROJECT_DIR$/question/html/baseQ-demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="35" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="7" />
@@ -669,49 +552,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/友盟面试题.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/fe_question_answers.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-15120">
-            <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="66" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/柯里化事例.cs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/table_layout.html">
+    <entry file="file://$PROJECT_DIR$/question/html/table_layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-382">
           <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/数组排序的实现.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -725,7 +569,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/实现下拉框.html">
+    <entry file="file://$PROJECT_DIR$/question/html/实现下拉框.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1330">
           <caret line="55" column="38" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="38" />
@@ -824,31 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/base_question.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1908">
-            <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/curring.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/js_methodOverride.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
@@ -856,7 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/baseQ-demo.html">
+    <entry file="file://$PROJECT_DIR$/question/html/baseQ-demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1094">
           <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
@@ -877,47 +696,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/O_seal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/O_curring_Calss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="84" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapters/JavaScript/Core/ECMAScript/Array核心基础「ES5／ES6」.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapters/JavaScript/Core/ECMAScript/ES5的Object新特性.md">
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -926,6 +710,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="10">
             <caret line="130" column="0" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -949,28 +734,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/柯里化.js">
+    <entry file="file://$PROJECT_DIR$/question/md/base_question.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2784">
+            <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/友盟面试题.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/O_curring_Calss.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/反转字符串语句.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <caret line="8" column="84" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="84" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -985,7 +782,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/DOM操作.html">
+    <entry file="file://$PROJECT_DIR$/demo/O_seal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/反转字符串语句.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/柯里化事例.cs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/柯里化实现.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/柯里化实现方案.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/md/fe_question_answers.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="36">
+            <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="66" selection-end-column="31" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/html/DOM操作.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
@@ -993,11 +858,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html">
+    <entry file="file://$PROJECT_DIR$/question/setTimeout与process.nextTick区别.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="31" column="75" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="75" />
+        <state relative-caret-position="1296">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/数组排序的实现.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <element signature="e#100#563#0" expanded="false" />
+            <element signature="n#!!block;n#sort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/解决应用类型__深拷贝问题.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/JavaScript/Core/ECMAScript/Array核心基础「ES5／ES6」.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/数组去重.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,35 +5,7 @@ var foo = "11"+2-"4";
 console.log(foo);
 console.log(typeof foo);
 
-var a = new Object();
-a.value = 1;
- //最简单的解决引用类型深拷贝问题
-b = JSON.parse(JSON.stringify(a));
- b.value = 2;
 
-//
-Object.prototype.clone = function () {
-    var Constructor = this.constructor;
-       var obj = new Constructor();
-       for (var attr in this) {
-        if (this.hasOwnProperty(attr)) {
-               if (typeof(this[attr]) !== "function") {
-                if (this[attr] === null) {
-                    obj[attr] = null;
-                } else {
-                    obj[attr] = this[attr];// this[attr].clone(); 这么写不复制对象属性值
-                }
-              }
-        }
-    }
-    return obj;
-};
-
-var  c = a.clone();
-  c.value = 231;
-console.log(a.value);
-console.log(b.value);
-console.log(c.value);
 
 
 var arr = [1,2,3,3,2,4,5];
@@ -73,7 +45,16 @@ function md_1(){
 }
 md_1();
 
+function foo() {
+    console.log("first");
+    setTimeout(( function(){
+        console.log( 'second' );
+    }),5);
+}
 
+for (var i = 0; i < 100; i++) {
+    foo();
+}
 
 
 
