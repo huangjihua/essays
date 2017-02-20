@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b8467f-f64e-492e-be7b-d792a925499c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/setTimeout与process.nextTick区别.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/数组去重.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/question/解决应用类型__深拷贝问题.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/question/DOM操作.html" afterPath="$PROJECT_DIR$/question/html/DOM操作.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/question/baseQ-demo.html" afterPath="$PROJECT_DIR$/question/html/baseQ-demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/question/base_question.md" afterPath="$PROJECT_DIR$/question/md/base_question.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/question/curring.js" afterPath="$PROJECT_DIR$/question/柯里化实现方案.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/question/fe_question_answers.md" afterPath="$PROJECT_DIR$/question/md/fe_question_answers.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/question/table_layout.html" afterPath="$PROJECT_DIR$/question/html/table_layout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/question/实现下拉框.html" afterPath="$PROJECT_DIR$/question/html/实现下拉框.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/question/柯里化.js" afterPath="$PROJECT_DIR$/question/柯里化实现.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/demo.js" afterPath="$PROJECT_DIR$/question/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html" afterPath="$PROJECT_DIR$/question/手写事件模型及事件代理_委托.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/数组排序的实现.js" afterPath="$PROJECT_DIR$/question/数组排序的实现.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/一个有意思的js题.js" afterPath="$PROJECT_DIR$/question/一个有意思的js题.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/数组去重.js" afterPath="$PROJECT_DIR$/question/数组去重.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/柯里化实现方案.js" afterPath="$PROJECT_DIR$/question/柯里化实现方案.js" />
     </list>
     <ignored path="essays.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,25 +34,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question/demo.js">
+      <file leaf-file-name="柯里化实现方案.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question/柯里化实现方案.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="91">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="一个有意思的js题.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/question/一个有意思的js题.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question/数组去重.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="105" column="66" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="66" />
               <folding>
-                <element signature="e#0#39#0" expanded="false" />
+                <element signature="e#0#40#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/question/数组去重.js">
+      <file leaf-file-name="柯里化实现.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question/柯里化实现.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+            <state relative-caret-position="612">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question/demo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
               <folding>
-                <element signature="e#0#40#0" expanded="false" />
+                <element signature="e#0#39#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -106,7 +126,6 @@
         <option value="$PROJECT_DIR$/layout-css/magin负值下的等高布局.html" />
         <option value="$PROJECT_DIR$/layout-css/margin相关/margin无效情形下的解析.html" />
         <option value="$PROJECT_DIR$/layout-css/margin相关/margin无效情形解析.html" />
-        <option value="$PROJECT_DIR$/question/一个有意思的js题.js" />
         <option value="$PROJECT_DIR$/question/baseQ-demo.html" />
         <option value="$PROJECT_DIR$/demo/O_seal.js" />
         <option value="$PROJECT_DIR$/demo/特殊比较值.js" />
@@ -119,9 +138,11 @@
         <option value="$PROJECT_DIR$/question/最简单的解决应用类型__深拷贝问题.js" />
         <option value="$PROJECT_DIR$/question/数组排序的实现.js" />
         <option value="$PROJECT_DIR$/question/curring.js" />
-        <option value="$PROJECT_DIR$/question/demo.js" />
         <option value="$PROJECT_DIR$/question/setTimeout与process.nextTick区别.js" />
+        <option value="$PROJECT_DIR$/question/柯里化实现方案.js" />
+        <option value="$PROJECT_DIR$/question/demo.js" />
         <option value="$PROJECT_DIR$/question/数组去重.js" />
+        <option value="$PROJECT_DIR$/question/一个有意思的js题.js" />
       </list>
     </option>
   </component>
@@ -164,7 +185,38 @@
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="essays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="question" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -187,20 +239,20 @@
       <recent name="$PROJECT_DIR$/e-css/imgs" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.数组去重.js">
-    <configuration default="false" name="最简单的解决应用类型__深拷贝问题.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/question/解决应用类型__深拷贝问题.js" working-dir="$PROJECT_DIR$/question">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.一个有意思的js题.js">
     <configuration default="false" name="数组排序的实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数组排序的实现.js" working-dir="$PROJECT_DIR$/question">
-      <method />
-    </configuration>
-    <configuration default="false" name="curring.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/question/柯里化实现方案.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
     <configuration default="false" name="setTimeout与process.nextTick区别.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="setTimeout与process.nextTick区别.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
     <configuration default="false" name="数组去重.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数组去重.js" working-dir="$PROJECT_DIR$/question">
+      <method />
+    </configuration>
+    <configuration default="false" name="demo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="demo.js" working-dir="$PROJECT_DIR$/question">
+      <method />
+    </configuration>
+    <configuration default="false" name="一个有意思的js题.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="一个有意思的js题.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -261,19 +313,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.O_defineProperties.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.最简单的解决应用类型__深拷贝问题.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.curring.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.setTimeout与process.nextTick区别.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.数组去重.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.setTimeout与process.nextTick区别.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.数组去重.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.demo.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.一个有意思的js题.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.数组去重.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.setTimeout与process.nextTick区别.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.curring.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.最简单的解决应用类型__深拷贝问题.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.一个有意思的js题.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.数组去重.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.demo.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.setTimeout与process.nextTick区别.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
       </list>
     </recent_temporary>
   </component>
@@ -302,28 +354,28 @@
       <workItem from="1486614580873" duration="4474000" />
       <workItem from="1486642397136" duration="3308000" />
       <workItem from="1487087248993" duration="2109000" />
-      <workItem from="1487131106819" duration="29820000" />
+      <workItem from="1487131106819" duration="33962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115743000" />
+    <option name="totallyTimeSpent" value="119885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19459888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.50277996" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27286586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27286586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21493903" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3246951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41310975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -372,12 +424,13 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/question/柯里化实现.js</url>
-          <line>12</line>
-          <option name="timeStamp" value="50" />
+          <url>file://$PROJECT_DIR$/question/一个有意思的js题.js</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="59" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -389,6 +442,8 @@
         <watch expression="arguments[i++]" language="JavaScript" />
         <watch expression="args[args.length] " language="JavaScript" />
         <watch expression="args" language="JavaScript" />
+        <watch expression="this" language="JavaScript" />
+        <watch expression="this==global" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
@@ -654,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/一个有意思的js题.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.2.0/core-modules/node.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -814,22 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/柯里化实现.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/柯里化实现方案.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/question/md/fe_question_answers.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -909,21 +941,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/question/demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/question/柯里化实现.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/柯里化实现方案.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/question/数组去重.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="113" column="1" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
+        <state relative-caret-position="305">
+          <caret line="105" column="66" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="66" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/一个有意思的js题.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>

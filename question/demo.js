@@ -56,5 +56,9 @@ for (var i = 0; i < 100; i++) {
     foo();
 }
 
-
+function fun2(){
+    var arr = arguments||[];
+    console.log( arr);
+}
+fun2(2);
 

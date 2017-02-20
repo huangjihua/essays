@@ -101,6 +101,10 @@ console.log(unique3(arr));
          // 检测在hash对象中是否包含遍历到的元素的值
          //(typeof this[i])+this[i] 为了处理number与string类型，
          // 但是如果数组里包含object类型的对象（如：{a:1}）此方法不可行
+         if(typeof this[i] === 'object'){
+             console.log(Object.keys(this[i]));
+             this[i] = Object.keys(this[i])+Object.values(this[i]);
+         }
          if(!hash[(typeof this[i])+this[i]]){
              // 如果不包含，存入object对象中该属性名的值设置为1
              hash[(typeof this[i])+this[i]] = true;

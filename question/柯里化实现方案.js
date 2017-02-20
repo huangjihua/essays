@@ -13,7 +13,6 @@ function betterCurryingHelper(fn, len) {
     var length = len || fn.length;
     return function () {
         var allArgsFulfilled = (arguments.length >= length);
-
         // 如果参数全部满足,就可以终止递归调用
         if (allArgsFulfilled) {
             return fn.apply(this, arguments);
