@@ -65,4 +65,6 @@ console.log(Person.prototype.constructor === Person); //true
 console.log(Person.prototype.constructor.realName); //黄继华, 相当于Person.realName;
 
 //----- 测试 原型链 ---- //
-console.log(p.__proto__  === Person.prototype);
+console.log(p.__proto__  === Person.prototype); // true
+console.log(p.constructor.prototype === Person.prototype); //true
+console.log( p.constructor === Person); // true

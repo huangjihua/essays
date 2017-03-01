@@ -42,4 +42,8 @@ var cheese = new Food('feta', 5);
 var fun = new Toy('robot', 40);
 console.log(cheese);
 console.log(fun);
-console.log('64'-3);
+
+
+console.log('1'+2+3); //123
+console.log('64'-3); //61
+console.log(typeof  null); //object
