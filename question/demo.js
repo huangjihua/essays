@@ -1,12 +1,9 @@
 /**
  * Created by hank on 2017/1/5.
  */
-var foo = "11"+2-"4";
-console.log(foo);
-console.log(typeof foo);
-
-
-
+var va = "11"+2-"4";
+console.log(va);
+console.log(typeof va);
 
 var arr = [1,2,3,3,2,4,5];
 var  arr2 = {x:2,y:3};
@@ -52,13 +49,30 @@ function foo() {
     }),5);
 }
 
-for (var i = 0; i < 100; i++) {
-    foo();
-}
+// for (var i = 0; i <= 5; i++) {
+//     (function (j) {
+//         setTimeout(function timer() {
+//             console.log(j);
+//         },j*1000);
+//     })(i);
+// }
+
 
 function fun2(){
     var arr = arguments||[];
     console.log( arr);
 }
-fun2(2);
+fun2(2,3);
 
+ var a = 2;
+ (function IIFE(){
+ 	console.log(a);
+ })();
+
+ var test = {
+       fun:function () {
+             //可以这么写
+             console.log(!/function|object/.test(typeof this));
+       }
+ };
+ test.fun();
