@@ -6,8 +6,9 @@
 var cuuring = function (func,args) {
     var args = args||[];
     return function(){
-        if(arguments.length == 0){ return func.apply(null,args);  console.log(this);}
+        if(arguments.length == 0) return func.apply(null,args);
         var i = 0;
-        while ()
-    }
-}
+        while (typeof arguments[i] !='undefined') args[args.length] = arguments[i++];
+        return cuuring(func,args);
+    };
+};

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试元素的隐藏的方式</title>
+    <style media="screen">
+        .list{ list-style:none;
+            width:80px; height: 30px; border: solid 1px #aaaaaa; position: relative; }
+        .list a { display: block; line-height: 30px; text-align: center; background-color: #cccccc; text-decoration: none;
+            color: #000;}
+        ul ul { margin:0;padding: 0;  width: 140px; border: solid 1px #aaaaaa;
+            position: absolute; left: -1px; background-color: #c5c5c5; }
+        ul ul li {line-height: 30px;  text-align: center;  list-style: none; }
+    </style>
+    <!--希望把某个元素移除你的视线-->
+    <!--
+      1： dispaly:none 显示无 （不在文档流当中，要获取元素的宽高要费一些手段）
+      2： visibility: hidden 隐藏 (在文档流当中)
+      3： 改变元素 width/ height （ 可以实现tab缓缓呈现）
+      4: 透明度
+      5： top /left （实现左右上下滑动显示效果）
+      6：拿一个背景色同色的div遮盖
+      7： margin 负值
+       是否还有方法呢......12种以上
+
+
+
+    -->
+</head>
+<body>
+<ul id="list">
+    <li class="list">
+        <a href="#">微博</a>
+        <ul>
+            <li>私信</li>
+            <li>评论</li>
+            <li>@我</li>
+        </ul>
+    </li>
+</ul>
+<script>
+    document.querySelector('.list').addEventListener('mouseover',function(event) {
+         alert(event.target|| event.srcElement);
+
+    });
+</script>
+</body>
+</html>

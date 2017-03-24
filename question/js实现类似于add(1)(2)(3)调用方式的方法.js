@@ -9,11 +9,9 @@ function add(x) {
         sum += y;
         return temp;
     };
-    //重写toString
     temp.toString = function () {
         return sum;
     };
-
     return temp;
 }
 var  result = add(1)(2)(3)(4);
@@ -21,3 +19,19 @@ var  result = add(1)(2)(3)(4);
 console.log(result);
 console.log(result.toString());
 console.log(add(1)(2)(3)(4)(5).toString());
+//上面的还是没发满足我的需求，这样调用add(1)(2)(3)(4)(5)就直接输出结果
+
+function  add2() {
+     var args = Array.prototype.slice(arguments);
+     var fn  = function () {
+         var arg_fn = Array.prototype.slice(arguments);
+         return add2.apply(null,args.concat(arg_fn));
+     };
+     fn.valueOf  = function () {
+          return args.reduce(function (a,b) {
+              return a+b;
+          });
+     };
+     return fn;
+}
+ console.log(add2(1)(2)(3));
