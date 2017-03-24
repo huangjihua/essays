@@ -22,3 +22,6 @@ var d= f();
 console.log(d.next());
 console.log(d.next());
 console.log(d.next());
+
+//
+console.log(['1','2','3'].map(parseInt));

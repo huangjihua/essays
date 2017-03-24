@@ -27,7 +27,7 @@ var b = [2,3,8,3,1,5];
 // };
 // b.sort1() ;
 
-//方法二
+//方法二 O(N^2)
 
 function sort(arr) {
     var i,j;
@@ -77,3 +77,24 @@ console.log(arr1.reduce((a,b) => a+b));
 console.log(arr1.slice(1));
 console.log(arr1.slice(-2));//
 console.log(arr1.slice(1,3)); //不包括第3个
+
+//方法三  快速排序
+var quickSort = function (arr) {
+    if(arr.length<=1){return arr;}
+    var pivotIndex  = Math.floor(arr.length/2);
+    var pivot  = arr.splice(pivotIndex,1)[0]; //
+    var left  = [];
+    var right  = [];
+    for(var i=0,len=arr.length; i<len; i++){
+        if(arr[i]< pivot){
+            left.push(arr[i]);
+        }
+        else{
+            right.push(arr[i]);
+        }
+    }
+    return quickSort(left).concat([pivot],quickSort(right));
+};
+
+console.log(quickSort([89,9,78,65,45,43,23]));
+
