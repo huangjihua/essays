@@ -58,3 +58,11 @@ class C extends A {
 var c = new C();
 c.constructor.foo();
 //C.foo();
+
+var d= f();
+console.log(d.next());
+console.log(d.next());
+console.log(d.next());
+
+//
+console.log(['1','2','3'].map(parseInt));

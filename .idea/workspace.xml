@@ -11,12 +11,17 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/继承.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/O_curring_Calss.js" afterPath="$PROJECT_DIR$/demo/O_curring_Calss.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js" afterPath="$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/js构造函数.js" afterPath="$PROJECT_DIR$/question/js构造函数.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/test.js" afterPath="$PROJECT_DIR$/question/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/柯里化实现.js" afterPath="$PROJECT_DIR$/question/柯里化实现.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/柯里化实现方案.js" afterPath="$PROJECT_DIR$/question/柯里化实现方案.js" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/test.js" afterPath="$PROJECT_DIR$/question/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/数组排序的实现.js" afterPath="$PROJECT_DIR$/question/数组排序的实现.js" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
     </list>
     <ignored path="essays.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,6 +35,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -44,18 +50,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/question/test.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1767">
               <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="10" />
               <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="20" />
               <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
+=======
+            <state relative-caret-position="234">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="test2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question/test2.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,6 +76,14 @@
               <folding>
                 <element signature="n#!!doc;n#Cat#0" expanded="false" />
               </folding>
+=======
+      <file leaf-file-name="js构造函数.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question/js构造函数.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+              <folding />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
             </state>
           </provider>
         </entry>
@@ -83,8 +103,23 @@
       <file leaf-file-name="友盟面试题.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question/友盟面试题.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1953">
               <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+=======
+            <state relative-caret-position="-279">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数组排序的实现.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question/数组排序的实现.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
               <folding />
             </state>
           </provider>
@@ -93,8 +128,23 @@
       <file leaf-file-name="html+css布局题.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/question/html/html+css布局题.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-620">
               <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+=======
+            <state relative-caret-position="268">
+              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="一个有意思的js题.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/question/一个有意思的js题.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
               <folding />
             </state>
           </provider>
@@ -103,8 +153,13 @@
       <file leaf-file-name="浮动居中div.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question/html/浮动居中div.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="713">
               <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+=======
+            <state relative-caret-position="186">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
               <folding />
             </state>
           </provider>
@@ -152,6 +207,10 @@
         <option value="$PROJECT_DIR$/question/curring.js" />
         <option value="$PROJECT_DIR$/question/setTimeout与process.nextTick区别.js" />
         <option value="$PROJECT_DIR$/question/数组去重.js" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/question/友盟面试题.js" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
         <option value="$PROJECT_DIR$/question/html/排序算法过程的动画展现.html" />
         <option value="$PROJECT_DIR$/question/闭包题.js" />
         <option value="$PROJECT_DIR$/question/取两个有序数组里N个大值.js" />
@@ -164,6 +223,7 @@
         <option value="$PROJECT_DIR$/question/Function.prototype.call() 使用.js" />
         <option value="$PROJECT_DIR$/question/一个有意思的js题.js" />
         <option value="$PROJECT_DIR$/question/js构造函数.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/question/柯里化实现方案.js" />
         <option value="$PROJECT_DIR$/question/柯里化实现.js" />
         <option value="$PROJECT_DIR$/question/nodejs中默认this绑定什么对象？.js" />
@@ -178,19 +238,21 @@
         <option value="$PROJECT_DIR$/question/html/test.html" />
         <option value="$PROJECT_DIR$/test/继承.js" />
         <option value="$PROJECT_DIR$/question/数组排序的实现.js" />
+=======
+        <option value="$PROJECT_DIR$/question/数组排序的实现.js" />
+        <option value="$PROJECT_DIR$/question/test.js" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
     <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="height" value="796" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -240,6 +302,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,7 +337,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,11 +361,16 @@
       <recent name="$PROJECT_DIR$/e-css/imgs" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Node.js.继承.js">
     <configuration default="false" name="test2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test2.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
     <configuration default="false" name="利用闭包--创建一个计数器.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="利用闭包--创建一个计数器.js" working-dir="$PROJECT_DIR$/question/md">
+=======
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration default="false" name="js构造函数.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="js构造函数.js" working-dir="$PROJECT_DIR$/question">
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
       <method />
     </configuration>
     <configuration default="false" name="友盟面试题.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="友盟面试题.js" working-dir="$PROJECT_DIR$/question">
@@ -313,6 +380,9 @@
       <method />
     </configuration>
     <configuration default="false" name="继承.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="继承.js" working-dir="$PROJECT_DIR$/test">
+      <method />
+    </configuration>
+    <configuration default="false" name="数组排序的实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数组排序的实现.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -373,6 +443,7 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.O_defineProperties.js" />
+<<<<<<< HEAD
       <item index="1" class="java.lang.String" itemvalue="Node.js.test2.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.利用闭包--创建一个计数器.js" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.友盟面试题.js" />
@@ -386,6 +457,21 @@
         <item index="2" class="java.lang.String" itemvalue="Node.js.test2.js" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.友盟面试题.js" />
         <item index="4" class="java.lang.String" itemvalue="Node.js.利用闭包--创建一个计数器.js" />
+=======
+      <item index="1" class="java.lang.String" itemvalue="Node.js.js构造函数.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Function.prototype.call() 使用.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.一个有意思的js题.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.js构造函数.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.一个有意思的js题.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.Function.prototype.call() 使用.js" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
       </list>
     </recent_temporary>
   </component>
@@ -415,17 +501,26 @@
       <workItem from="1486642397136" duration="3308000" />
       <workItem from="1487087248993" duration="2109000" />
       <workItem from="1487131106819" duration="55711000" />
+<<<<<<< HEAD
       <workItem from="1488032721110" duration="70048000" />
       <workItem from="1489220635789" duration="213000" />
       <workItem from="1489222623570" duration="11000" />
       <workItem from="1489325098256" duration="7530000" />
       <workItem from="1489372369996" duration="17506000" />
       <workItem from="1490352149170" duration="1755000" />
+=======
+      <workItem from="1488032721110" duration="21545000" />
+      <workItem from="1490107266255" duration="9913000" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="238697000" />
+=======
+    <option name="totallyTimeSpent" value="173092000" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,14 +532,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25972995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41310975" sideWeight="0.50436854" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40243903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2209857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41310975" sideWeight="0.50436854" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27207977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21493903" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
@@ -519,6 +622,77 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/chapters/Html5/Html5实践体会以及资源本地存储原理.md">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/html/table_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/md_lazyMan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc;n#_LazyMan#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/html/实现下拉框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="55" column="38" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/Tools/webpack构建工具的使用.md">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/CSS/example/绝对定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapters/CSS/CSS3.md">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exportToHTML/2014年最新前端开发面试题（题目列表+答案 完整版）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53784">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
     <entry file="file://$PROJECT_DIR$/demo/js引擎如何查找属性.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -577,6 +751,7 @@
           <second_editor />
         </state>
       </provider>
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="10">
@@ -585,6 +760,8 @@
           <second_editor />
         </state>
       </provider>
+=======
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
     </entry>
     <entry file="file://$PROJECT_DIR$/chapters/JavaScript/Core/ECMAScript/es5.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -595,14 +772,33 @@
           <second_editor />
         </state>
       </provider>
+<<<<<<< HEAD
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/md/base_question.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2784">
+            <caret line="53" column="45" selection-start-line="53" selection-start-column="45" selection-end-line="53" selection-end-column="45" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
           </first_editor>
           <second_editor />
         </state>
       </provider>
+<<<<<<< HEAD
+=======
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/O_curring_Calss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="84" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="84" />
+        </state>
+      </provider>
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
     </entry>
     <entry file="file://$PROJECT_DIR$/question/constructor 和prototype.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,6 +821,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/question/md/fe_question_answers.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -638,6 +835,21 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/question/反转字符串语句.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/md/fe_question_answers.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="36">
+            <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="66" selection-end-column="31" />
+            <folding />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
           </first_editor>
           <second_editor />
         </state>
@@ -647,6 +859,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -711,6 +924,8 @@
         <state relative-caret-position="216">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding />
+=======
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
         </state>
       </provider>
     </entry>
@@ -748,6 +963,7 @@
     <entry file="file://$PROJECT_DIR$/chapters/JavaScript/Core/ECMAScript/Array核心基础「ES5／ES6」.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
+<<<<<<< HEAD
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
@@ -756,6 +972,8 @@
       </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
+=======
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
@@ -763,6 +981,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/question/js构造函数.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-124">
@@ -771,6 +990,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/question/nodejs中默认this绑定什么对象？.js">
+=======
+    <entry file="file://$PROJECT_DIR$/question/html/排序算法过程的动画展现.html">
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
@@ -786,8 +1008,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/question/柯里化实现方案.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="783">
           <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+=======
+        <state relative-caret-position="3329">
+          <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="117" selection-end-column="0" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
         </state>
       </provider>
     </entry>
@@ -807,8 +1034,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/question/Function.prototype.call() 使用.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="270">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+=======
+        <state relative-caret-position="163">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
         </state>
       </provider>
     </entry>
@@ -839,16 +1071,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/question/html/浮动居中div.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="713">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
+=======
+        <state relative-caret-position="864">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/question/友盟面试题.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1953">
           <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+=======
+        <state relative-caret-position="186">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
           <folding />
         </state>
       </provider>
@@ -862,27 +1104,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/O_defineProperties.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-31">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="473">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/特殊比较值.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="310">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+=======
+        <state relative-caret-position="665">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="39" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/module/module.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="558">
           <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+=======
+        <state relative-caret-position="252">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/question/html/test.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="167">
           <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
         </state>
@@ -892,10 +1150,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+=======
+        <state relative-caret-position="828">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/一个有意思的js题.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/question/js构造函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/test/继承.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -922,18 +1200,48 @@
           <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="10" />
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="20" />
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
+=======
+    <entry file="file://$PROJECT_DIR$/demo/M_bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/M_Array_slice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/数组排序的实现.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/question/数组去重.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2471">
           <caret line="116" column="27" selection-start-line="116" selection-start-column="27" selection-end-line="117" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/question/Function.prototype.call() 使用.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/question/数组排序的实现.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -946,6 +1254,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-620">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/question/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+>>>>>>> c243432dd17d8469a50373dfc93ea0e0fc33636a
           <folding />
         </state>
       </provider>
