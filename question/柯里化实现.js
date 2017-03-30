@@ -6,7 +6,7 @@ var curry = function(func,args){
         while(typeof arguments[i] != "undefined") args[args.length] = arguments[i++];
         return curry(func,args) ;
     }
-}
+};
 
 var curryAdd = curry(function(){
     var sum = 0,i=0;

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b8467f-f64e-492e-be7b-d792a925499c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/test.js" afterPath="$PROJECT_DIR$/question/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/数组排序的实现.js" afterPath="$PROJECT_DIR$/question/数组排序的实现.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js" afterPath="$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/question/柯里化实现.js" afterPath="$PROJECT_DIR$/question/柯里化实现.js" />
     </list>
     <ignored path="essays.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="155">
               <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
               <folding />
             </state>
@@ -46,38 +46,18 @@
       <file leaf-file-name="js构造函数.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question/js构造函数.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
+            <state relative-caret-position="72">
               <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="M_bind.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/M_bind.js">
+      <file leaf-file-name="js实现类似于add(1)(2)(3)调用方式的方法.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="M_Array_slice.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/M_Array_slice.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-279">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="数组排序的实现.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/question/数组排序的实现.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+            <state relative-caret-position="124">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -86,8 +66,18 @@
       <file leaf-file-name="Function.prototype.call() 使用.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question/Function.prototype.call() 使用.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="1023">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="广发银行手机银行.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/广发/广发银行手机银行.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -130,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/demo/O_defineProperties.js" />
         <option value="$PROJECT_DIR$/chapters/JavaScript/Core/ECMAScript/ES5的Object新特性.md" />
         <option value="$PROJECT_DIR$/chapters/CSS/example/绝对定位.html" />
         <option value="$PROJECT_DIR$/chapters/Html5/Html5实践体会以及本地存储原理.md" />
@@ -171,8 +160,6 @@
         <option value="$PROJECT_DIR$/demo/M_Signleton_Demo.js" />
         <option value="$PROJECT_DIR$/demo/module/module.js" />
         <option value="$PROJECT_DIR$/question/setTimeout代替setInterval.js" />
-        <option value="$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js" />
-        <option value="$PROJECT_DIR$/question/柯里化实现.js" />
         <option value="$PROJECT_DIR$/demo/M_Array_slice.js" />
         <option value="$PROJECT_DIR$/demo/M_bind.js" />
         <option value="$PROJECT_DIR$/question/Function.prototype.call() 使用.js" />
@@ -180,6 +167,10 @@
         <option value="$PROJECT_DIR$/question/js构造函数.js" />
         <option value="$PROJECT_DIR$/question/数组排序的实现.js" />
         <option value="$PROJECT_DIR$/question/test.js" />
+        <option value="$USER_HOME$/Documents/GF.html" />
+        <option value="$USER_HOME$/Downloads/广发/广发银行手机银行.html" />
+        <option value="$PROJECT_DIR$/question/柯里化实现.js" />
+        <option value="$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js" />
       </list>
     </option>
   </component>
@@ -298,20 +289,20 @@
       <recent name="$PROJECT_DIR$/e-css/imgs" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
-    <configuration default="false" name="js构造函数.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="js构造函数.js" working-dir="$PROJECT_DIR$/question">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.js实现类似于add(1)(2)(3)调用方式的方法.js">
     <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
     <configuration default="false" name="Function.prototype.call() 使用.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Function.prototype.call() 使用.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
-    <configuration default="false" name="一个有意思的js题.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="一个有意思的js题.js" working-dir="$PROJECT_DIR$/question">
+    <configuration default="false" name="数组排序的实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数组排序的实现.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
-    <configuration default="false" name="数组排序的实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="数组排序的实现.js" working-dir="$PROJECT_DIR$/question">
+    <configuration default="false" name="js实现类似于add(1)(2)(3)调用方式的方法.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="js实现类似于add(1)(2)(3)调用方式的方法.js" working-dir="$PROJECT_DIR$/question">
+      <method />
+    </configuration>
+    <configuration default="false" name="柯里化实现方案.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="柯里化实现方案.js" working-dir="$PROJECT_DIR$/question">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -372,19 +363,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Node.js.O_defineProperties.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.js构造函数.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.test.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Function.prototype.call() 使用.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.一个有意思的js题.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Function.prototype.call() 使用.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.js实现类似于add(1)(2)(3)调用方式的方法.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.柯里化实现方案.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.test.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.js构造函数.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.一个有意思的js题.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.Function.prototype.call() 使用.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.js实现类似于add(1)(2)(3)调用方式的方法.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.柯里化实现方案.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Function.prototype.call() 使用.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.数组排序的实现.js" />
       </list>
     </recent_temporary>
   </component>
@@ -415,12 +406,12 @@
       <workItem from="1487087248993" duration="2109000" />
       <workItem from="1487131106819" duration="55711000" />
       <workItem from="1488032721110" duration="21545000" />
-      <workItem from="1490107266255" duration="9913000" />
+      <workItem from="1490107266255" duration="18629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173092000" />
+    <option name="totallyTimeSpent" value="181808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,12 +430,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41310975" sideWeight="0.50436854" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27207977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27207977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21493903" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21367522" sideWeight="0.49722" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41310975" sideWeight="0.49563146" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4131054" sideWeight="0.49563146" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -521,23 +512,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapters/Html5/Html5实践体会以及资源本地存储原理.md">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/html/table_layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/md_lazyMan.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -799,6 +773,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -834,14 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/柯里化实现方案.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -849,39 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/柯里化事例.cs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/柯里化实现.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/question/一个有意思的js题.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/question/js构造函数.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -902,26 +840,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/数组排序的实现.js">
+    <entry file="file://$PROJECT_DIR$/question/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+        <state relative-caret-position="155">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GF.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="150" column="20" selection-start-line="145" selection-start-column="12" selection-end-line="150" selection-end-column="20" />
+          <folding>
+            <element signature="n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/广发/广发银行手机银行.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/question/Function.prototype.call() 使用.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state relative-caret-position="1023">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question/test.js">
+    <entry file="file://$PROJECT_DIR$/question/js构造函数.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="72">
+          <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/数组排序的实现.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/柯里化实现方案.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/柯里化实现.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/柯里化事例.cs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question/js实现类似于add(1)(2)(3)调用方式的方法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
           <folding />
         </state>
       </provider>
