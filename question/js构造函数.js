@@ -9,7 +9,7 @@ function Person(msg){
     //公有属性和方法（特权属性和方法）---只在被实例化后的实例中方可调用
     this.message  =  msg ;
     this.address = '北京';
-    console.log(typeof this); //object ,这里的this不是执行Person本身
+    console.log(typeof this); //object ,这里的this不是指向Person本身
     //公有方法能被外部公开访问
     //这个方法每次实例化都要重新构造而prototype是原型共享，所有实例化后，都共同引用同一个
     this.sayAge = function () {

@@ -5,16 +5,20 @@ var curry = function(func,args){
         var i = 0;
         while(typeof arguments[i] != "undefined") args[args.length] = arguments[i++];
         return curry(func,args) ;
+<<<<<<< HEAD
     }
+=======
+    };
+>>>>>>> ac223ae32f811f486f329fe2b4338c05dcf1a095
 };
 
 var curryAdd = curry(function(){
     var sum = 0,i=0;
     while(typeof arguments[i] != "undefined") sum += arguments[i++];
-    console.log(sum);
+    // console.log(sum);
     return sum;
 });
-curryAdd(2)(3)(4)(5)();
+ console.log(curryAdd(2)(3)(4)(5)()) ;
 
 var curryMultiply = curry(function(){
     if(arguments.length == 0) return 0;
@@ -23,4 +27,4 @@ var curryMultiply = curry(function(){
     console.log(mul);
     return mul;
 });
-console.log(curryMultiply(1)(2)(4)());
+// console.log(curryMultiply(1)(2)(4)());

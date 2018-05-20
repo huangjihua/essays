@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style media="screen">
+        ul,li{
+            margin:0;
+            padding:0;
+        }
+
+        .box li{
+            border:4px solid blue;
+            list-style: none;
+            width:50px;
+            height: 50px;
+            float: left;
+            text-align: center;
+            line-height:50px;
+            position: relative;
+            margin-left:-4px;
+            margin-top:-4px;
+            color: green;
+        }
+        .box li:active{
+            border: 4px solid red;
+            z-index: 10;
+        }
+        #tb{ width: 162px;}
+    </style>
+</head>
+<body>
+<div id="tb">
+    <!-- ul>li{$}*9 快捷方式生成-->
+    <ul class="box">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+</div>
+</body>
+</html>
+<!--
+一淘面试题来啦：使用 HTML+CSS 实现如图布局，border-widht 5px，一个格子大小是 50*50，
+hover时候边框变为红色（兼容IE6+，考虑语义化的结构）。昨天司徒正美面试，被这个题目坑了呀！
+有兴趣同学可以发在线 demo 或者文件到我邮箱 50167214atqq.com
+-->
