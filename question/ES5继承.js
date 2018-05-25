@@ -45,12 +45,11 @@ Dog.prototype = new Animal();
 
 /**
  * 子类方法
- *  为子类新增一个方法(在继承之后,否则会被覆盖),否则报错（ dog.run is not a function）
+ *  为子类新增一个方法(在继承之后,否则会被覆盖),否则报错（es5.getSubFlag is not a function）
  */
 Dog.prototype.run = function () {
     console.log('The '+ this.name +' was runing.');
 };
-
 var dog = new Dog('taiSen');
 console.log(dog.name); //dog    --子类覆盖父类的属性
 console.log(dog.type); // 0     --父类的属性
