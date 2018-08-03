@@ -44,6 +44,6 @@ MyModule.define('foo',['bar'],function (bar) {
 var bar = MyModule.get('bar');
 var foo = MyModule.get('foo');
 console.log(
-bar.hello('Hello World!')
+    bar.hello('Hello World!')
 );
 foo.awesome();

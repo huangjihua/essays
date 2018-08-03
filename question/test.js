@@ -59,10 +59,14 @@ var c = new C();
 c.constructor.foo();
 //C.foo();
 
-var d= f();
-console.log(d.next());
-console.log(d.next());
-console.log(d.next());
 
 //
 console.log(['1','2','3'].map(parseInt));
+
+var a=1,
+    bb= function a(x) {
+        x&&a(--x);
+
+    };
+    console.log(a);
+console.log(typeof a);

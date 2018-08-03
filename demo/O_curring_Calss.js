@@ -12,3 +12,4 @@ var cuuring = function (func,args) {
         return cuuring(func,args);
     };
 };
+
