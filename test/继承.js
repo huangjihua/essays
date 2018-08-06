@@ -6,7 +6,7 @@ function Person(){
 }
 Person.prototype.getName = function(){
     return  this.name;
-}
+}；
 //男人
 function Man(){
     this.name = 'john';
@@ -18,3 +18,4 @@ var  man = new Man();
 console.log(man.getName()); // john
 console.log( Man.prototype.constructor instanceof  Man); // false
 console.log(Man.prototype.constructor);//[Function: Person]
+

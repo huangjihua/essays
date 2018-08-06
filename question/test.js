@@ -68,5 +68,16 @@ var a=1,
         x&&a(--x);
 
     };
-    console.log(a);
+   console.log(a);
 console.log(typeof a);
+
+// this作用域统一
+vue = {
+    data: ['girl', 'boy'],
+    init: function() {
+         setTimeout(e => {
+             console.log(this.data) // ['girl', 'boy']
+         });
+    }
+};
+vue.init();
