@@ -5,7 +5,11 @@ var curry = function(func,args){
         var i = 0;
         while(typeof arguments[i] != "undefined") args[args.length] = arguments[i++];
         return curry(func,args) ;
+<<<<<<< HEAD
+    }
+=======
     };
+>>>>>>> ac223ae32f811f486f329fe2b4338c05dcf1a095
 };
 
 var curryAdd = curry(function(){
