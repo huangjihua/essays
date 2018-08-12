@@ -18,3 +18,4 @@ var  man = new Man();
 console.log(man.getName()); // john
 console.log( Man.prototype.constructor instanceof  Man); // false
 console.log(Man.prototype.constructor);//[Function: Person]
+

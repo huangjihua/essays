@@ -59,10 +59,25 @@ var c = new C();
 c.constructor.foo();
 //C.foo();
 
-var d= f();
-console.log(d.next());
-console.log(d.next());
-console.log(d.next());
 
 //
 console.log(['1','2','3'].map(parseInt));
+
+var a=1,
+    bb= function a(x) {
+        x&&a(--x);
+
+    };
+   console.log(a);
+console.log(typeof a);
+
+// this作用域统一
+vue = {
+    data: ['girl', 'boy'],
+    init: function() {
+         setTimeout(e => {
+             console.log(this.data) // ['girl', 'boy']
+         });
+    }
+};
+vue.init();

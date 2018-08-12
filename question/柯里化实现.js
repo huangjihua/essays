@@ -27,4 +27,4 @@ var curryMultiply = curry(function(){
     console.log(mul);
     return mul;
 });
-// console.log(curryMultiply(1)(2)(4)());
+console.log(curryMultiply(1)(2)(4)());

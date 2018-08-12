@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+            font-size: 12px;
+
+        }
+        .header{
+            height: 300px;
+            background-color:burlywood;
+        }
+        .main{
+            height: 900px;
+            background-color:white;
+        }
+        .footer{
+            left:0;
+            bottom: 0;
+            height:50px;
+            background-color: #0086b3;
+        }
+        ul.tab{
+            display:-webkit-box;
+            display: -moz-box;
+            display: box;
+            width: 100%;
+            font-size: 12px;
+            color:black;
+        }
+        ul.tab li{
+            height: 25px;
+            line-height: 25px;
+            width:1%;
+            list-style-type: none;
+            -webkit-box-flex: 1;
+            -moz-box-flex: 1;
+            box-flex:1;
+            word-break: break-all;
+            text-align: center;
+            background-color: #999999;
+        }
+        /*Android*/
+          .tab-box-fixed {
+              position: fixed;
+              top:0;
+              left:0;
+              z-index: 5;
+          }
+         /*iOS*/
+          .tab-box-sticky {
+              position: -webkit-sticky;
+              position: sticky;
+              top: 0;
+              left: 0;
+              z-index: 5;
+          }
+    </style>
+</head>
+<body>
+ <div class="container">
+    <section class="header">
+    </section>
+     <section class="main">
+         <ul class="tab">
+             <li>测试1</li>
+             <li>测试2</li>
+             <li>测试3</li>
+             <li>测试4</li>
+         </ul>
+     </section>
+     <section class="footer">
+     </section>
+ </div>
+</body>
+<script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+
+<script>
+
+    function fixed(className) {
+        var u = navigator.userAgent;
+        var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+        var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+        var targetEle = document.querySelector(className);
+        var elOffsetTop = targetEle.offsetTop;
+        if(isAndroid) {
+            document.body.onscroll = function(e) {
+                var scrollT = document.documentElement.scrollTop;
+                if (scrollT > elOffsetTop) {
+
+                    $(targetEle).addClass('tab-box-fixed');
+                }else {
+                    $(targetEle).removeClass('tab-box-fixed');
+                }
+            };
+        }else if(isiOS) {
+            $(targetEle).addClass('tab-box-sticky');
+            console.log(11);
+        }
+    }
+//    fixed('.tab');
+</script>
+</html>
