@@ -6,7 +6,7 @@ function Person(){
 }
 Person.prototype.getName = function(){
     return  this.name;
-}
+};
 //男人
 function Man(){
     this.name = 'john';
