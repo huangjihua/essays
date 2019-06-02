@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+
+</head>
+<body>
+<div id="app"></div>
+
+</body>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            template:`<div>姓名:{{name}}</div>,<div>年龄:{{age}}</div>`,
+            name:'hank',
+            age:23,
+            speak:function(){
+                console.log('this.name');
+            }
+        },
+        render(){
+            const root =   document.querySelector('#app');
+            let tmode = this.template.match(/{{\w+}}/g); // mode arrs;
+            let tm =this.template;
+            if(tmode){
+                for(let i=0; i<tmode.length;i++){
+                  tm =  tm.replace(tmode[i], this[tmode[i].match(/\w+/g)]);
+                }
+            }
+            console.log('视图更新啦～');
+            root.innerHTML  = tm;
+        }
+    });
+    app._data.age = 323;
+</script>
+</html>

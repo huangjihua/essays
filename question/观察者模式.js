@@ -88,7 +88,7 @@ var joe = {
 // paper.daily();
 // paper.monthly();
 
-paper.subscribe(function (arg) {
+publisher.subscribe(function (arg) {
     console.log('hank'+ arg);
 }, 'hank').subscribers.hank[0]();
 console.log(publisher);

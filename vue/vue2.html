@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="Vue3.js"></script>
+</head>
+<body>
+
+</body>
+<script>
+  let vm =  new Vue({
+        template:
+            `<div>
+            <span>text1:</span> {{text1}}
+            <span>text2:</span> {{text2}}
+        <div>`,
+        data: {
+            text1: 'text1',
+            text2: 'text2',
+            text3: 'text3'
+        },
+        render(){
+            console.log(this.text1);
+        }
+    });
+
+</script>
+</html>
