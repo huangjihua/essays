@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script src="./js/Vue.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<div class="box">{{title}}</div>
+			<input type="text" v-model="age">
+			<span>{{title}}</span>
+			<div>{{age}}</div>
+			<input type="text" v-model="title">
+		</div>
+	<script type="text/javascript">
+		var vm  = new Vue({
+			el:'#app',
+			data:{
+				title:'hank',
+				age:10,
+				message:'造一个双向绑定数据响应式轮子'
+			}
+		});
+		
+		console.log(vm._data)
+	</script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="app">
+			<div class="box"></div>
+			<input type="text">
+			
+		</div>
+		
+		<script type="text/javascript">
+			var box = document.querySelector('.box')
+			var data = {
+				title:'hank',
+				age:'33'
+			}
+			box.innerHTML = data.age;
+			
+			let  p = new Proxy(data,{
+				set(target,prop,newValue){
+					console.log('set...',target,prop, newValue);
+					box.innerHTML = newValue; // 
+					return Reflect.set(...arguments)
+				},
+				get(target,prop){
+					console.log('get...',target,prop)
+					// Reflect.get该方法会拦截目标对象
+					return Reflect.get(...arguments)  // return 什么值get获取到的就是啥，比如，返回10 ，结果都是10
+				}
+			})
+		</script>
+	</body>
+</html>
